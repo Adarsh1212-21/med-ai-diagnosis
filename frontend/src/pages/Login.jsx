@@ -12,8 +12,14 @@ export default function Login({ onLogin }) {
     setLoading(true);
     setError('');
     try {
-      const url = mode === 'login' ? '/api/auth/login' : '/api/auth/register';
-      const { data } = await axios.post(url, form);
+      
+      const BASE_URL = process.env.REACT_APP_BACKEND_URL || '';
+
+const url = mode === 'login' 
+  ? `${BASE_URL}/api/auth/login` 
+  : `${BASE_URL}/api/auth/register`;
+
+const { data } = await axios.post(url, form);
       onLogin(data.user, data.token);
     } catch (err) {
       setError(err.response?.data?.message || 'Something went wrong');

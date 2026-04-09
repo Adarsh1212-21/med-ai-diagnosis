@@ -15,7 +15,11 @@ export default function Diagnosis({ user, onLogout }) {
     setLoading(true); setError(''); setResult(null);
     try {
       const token = localStorage.getItem('medi_token');
-      const { data } = await axios.post('/api/diagnosis/analyze', form, { headers: { Authorization: `Bearer ${token}` } });
+      const BASE_URL = process.env.REACT_APP_BACKEND_URL || '';
+
+const { data } = await axios.post(`${BASE_URL}/api/diagnosis/analyze`, form, { 
+  headers: { Authorization: `Bearer ${token}` } 
+});
       setResult(data.diagnosis);
     } catch (err) {
       setError(err.response?.data?.message || 'Analysis failed. Please try again.');
