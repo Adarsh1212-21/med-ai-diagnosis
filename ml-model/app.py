@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/')
-def health():
+def home():
     return 'OK', 200
 
 print("Loading ML model...")
