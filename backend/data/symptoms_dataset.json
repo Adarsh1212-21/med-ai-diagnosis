@@ -1,0 +1,340 @@
+[
+  {
+    "disease": "Common Cold",
+    "symptoms": ["runny nose", "sneezing", "sore throat", "cough", "congestion", "mild fever", "headache", "fatigue"],
+    "urgency": "Routine",
+    "description": "A viral infection of the upper respiratory tract causing nasal congestion, sneezing, and mild discomfort.",
+    "recommendedActions": [
+      "Rest and drink plenty of fluids",
+      "Take over-the-counter cold medications",
+      "Use saline nasal spray for congestion",
+      "Gargle warm salt water for sore throat"
+    ],
+    "whenToSeekCare": "If fever exceeds 103°F, symptoms last more than 10 days, or breathing becomes difficult"
+  },
+  {
+    "disease": "Influenza (Flu)",
+    "symptoms": ["high fever", "chills", "body aches", "muscle pain", "headache", "fatigue", "cough", "sore throat", "runny nose"],
+    "urgency": "Moderate",
+    "description": "A contagious respiratory illness caused by influenza viruses, more severe than the common cold.",
+    "recommendedActions": [
+      "Rest at home and avoid contact with others",
+      "Drink plenty of fluids to stay hydrated",
+      "Take antiviral medication if prescribed early",
+      "Use fever reducers like ibuprofen or acetaminophen"
+    ],
+    "whenToSeekCare": "If you have difficulty breathing, persistent chest pain, confusion, or severe vomiting"
+  },
+  {
+    "disease": "COVID-19",
+    "symptoms": ["fever", "cough", "shortness of breath", "fatigue", "loss of taste", "loss of smell", "body aches", "headache", "sore throat", "runny nose"],
+    "urgency": "Urgent",
+    "description": "A respiratory illness caused by the SARS-CoV-2 virus with a wide range of symptoms.",
+    "recommendedActions": [
+      "Get tested for COVID-19 immediately",
+      "Isolate yourself from others",
+      "Monitor oxygen levels with a pulse oximeter",
+      "Contact your doctor for guidance"
+    ],
+    "whenToSeekCare": "Emergency: difficulty breathing, persistent chest pain, confusion, inability to stay awake, bluish lips"
+  },
+  {
+    "disease": "Pneumonia",
+    "symptoms": ["cough", "fever", "chills", "shortness of breath", "chest pain", "fatigue", "nausea", "vomiting", "sweating"],
+    "urgency": "Urgent",
+    "description": "An infection that inflames air sacs in one or both lungs which may fill with fluid.",
+    "recommendedActions": [
+      "Seek medical attention promptly",
+      "Take prescribed antibiotics completely",
+      "Rest and drink plenty of fluids",
+      "Use a humidifier to ease breathing"
+    ],
+    "whenToSeekCare": "Immediately if you have difficulty breathing, chest pain, or high persistent fever"
+  },
+  {
+    "disease": "Migraine",
+    "symptoms": ["severe headache", "throbbing pain", "nausea", "vomiting", "sensitivity to light", "sensitivity to sound", "blurred vision", "dizziness"],
+    "urgency": "Moderate",
+    "description": "A neurological condition causing intense debilitating headaches often accompanied by nausea and sensitivity to light.",
+    "recommendedActions": [
+      "Rest in a dark quiet room",
+      "Apply cold or warm compress to head",
+      "Take prescribed migraine medication",
+      "Stay hydrated and avoid triggers"
+    ],
+    "whenToSeekCare": "If headache is the worst of your life, comes on suddenly, or is accompanied by fever and stiff neck"
+  },
+  {
+    "disease": "Hypertension",
+    "symptoms": ["headache", "dizziness", "blurred vision", "chest pain", "shortness of breath", "nosebleeds", "fatigue"],
+    "urgency": "Urgent",
+    "description": "High blood pressure that can lead to serious health complications if left untreated.",
+    "recommendedActions": [
+      "Monitor blood pressure regularly",
+      "Reduce salt intake in diet",
+      "Exercise regularly and maintain healthy weight",
+      "Take prescribed blood pressure medication"
+    ],
+    "whenToSeekCare": "If blood pressure reads above 180/120 or you have chest pain, vision problems, or difficulty speaking"
+  },
+  {
+    "disease": "Diabetes (Type 2)",
+    "symptoms": ["frequent urination", "excessive thirst", "fatigue", "blurred vision", "slow healing wounds", "frequent infections", "numbness", "tingling hands", "tingling feet"],
+    "urgency": "Moderate",
+    "description": "A chronic condition affecting how the body processes blood sugar leading to high glucose levels.",
+    "recommendedActions": [
+      "Monitor blood sugar levels regularly",
+      "Follow a low sugar balanced diet",
+      "Exercise regularly",
+      "Take prescribed diabetes medications"
+    ],
+    "whenToSeekCare": "If you experience confusion, rapid breathing, fruity breath odor, or loss of consciousness"
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptoms": ["nausea", "vomiting", "diarrhea", "stomach cramps", "abdominal pain", "fever", "headache", "muscle aches"],
+    "urgency": "Moderate",
+    "description": "Inflammation of the stomach and intestines typically caused by viral or bacterial infection.",
+    "recommendedActions": [
+      "Stay hydrated with oral rehydration solutions",
+      "Eat bland foods like rice toast and bananas",
+      "Avoid dairy fatty and spicy foods",
+      "Rest and avoid contact with others"
+    ],
+    "whenToSeekCare": "If vomiting or diarrhea lasts more than 2 days, signs of dehydration, blood in stool, or high fever"
+  },
+  {
+    "disease": "Urinary Tract Infection (UTI)",
+    "symptoms": ["burning urination", "frequent urination", "cloudy urine", "strong smelling urine", "pelvic pain", "lower back pain", "fever", "chills"],
+    "urgency": "Moderate",
+    "description": "An infection in any part of the urinary system including kidneys bladder and urethra.",
+    "recommendedActions": [
+      "Drink plenty of water to flush bacteria",
+      "Take prescribed antibiotics",
+      "Avoid caffeine and alcohol",
+      "Use heating pad for pain relief"
+    ],
+    "whenToSeekCare": "If you have high fever, back pain, nausea, or symptoms do not improve after 2 days of antibiotics"
+  },
+  {
+    "disease": "Asthma",
+    "symptoms": ["shortness of breath", "wheezing", "chest tightness", "coughing", "difficulty breathing", "rapid breathing"],
+    "urgency": "Urgent",
+    "description": "A condition in which airways narrow swell and may produce extra mucus making breathing difficult.",
+    "recommendedActions": [
+      "Use prescribed rescue inhaler immediately",
+      "Sit upright and stay calm",
+      "Avoid known triggers like dust and smoke",
+      "Follow your asthma action plan"
+    ],
+    "whenToSeekCare": "If rescue inhaler does not help, breathing is severely difficult, or lips turn blue"
+  },
+  {
+    "disease": "Allergic Reaction",
+    "symptoms": ["rash", "itching", "hives", "swelling", "runny nose", "watery eyes", "sneezing", "shortness of breath"],
+    "urgency": "Moderate",
+    "description": "An immune system response to a foreign substance that is not typically harmful to most people.",
+    "recommendedActions": [
+      "Identify and avoid the allergen",
+      "Take antihistamines for mild reactions",
+      "Apply hydrocortisone cream for skin reactions",
+      "Consult an allergist for testing"
+    ],
+    "whenToSeekCare": "Emergency: swelling of throat, difficulty breathing, dizziness or drop in blood pressure"
+  },
+  {
+    "disease": "Appendicitis",
+    "symptoms": ["abdominal pain", "pain around navel", "nausea", "vomiting", "fever", "loss of appetite", "diarrhea", "constipation"],
+    "urgency": "Emergency",
+    "description": "Inflammation of the appendix causing severe abdominal pain requiring immediate medical attention.",
+    "recommendedActions": [
+      "Go to emergency room immediately",
+      "Do not eat or drink anything",
+      "Do not take pain medications before diagnosis",
+      "Do not apply heat to abdomen"
+    ],
+    "whenToSeekCare": "IMMEDIATELY — this is a medical emergency requiring surgery"
+  },
+  {
+    "disease": "Anemia",
+    "symptoms": ["fatigue", "weakness", "pale skin", "shortness of breath", "dizziness", "cold hands", "cold feet", "headache", "chest pain"],
+    "urgency": "Moderate",
+    "description": "A condition where you lack enough healthy red blood cells to carry adequate oxygen to body tissues.",
+    "recommendedActions": [
+      "Take iron supplements as prescribed",
+      "Eat iron-rich foods like spinach and red meat",
+      "Take vitamin C to improve iron absorption",
+      "Get regular blood tests to monitor levels"
+    ],
+    "whenToSeekCare": "If you experience chest pain, severe shortness of breath, or rapid heartbeat"
+  },
+  {
+    "disease": "Acid Reflux (GERD)",
+    "symptoms": ["heartburn", "chest pain", "regurgitation", "difficulty swallowing", "sour taste", "nausea", "coughing", "hoarseness"],
+    "urgency": "Routine",
+    "description": "A digestive disease where stomach acid or bile irritates the food pipe lining.",
+    "recommendedActions": [
+      "Avoid spicy fatty and acidic foods",
+      "Eat smaller meals more frequently",
+      "Do not lie down immediately after eating",
+      "Take antacids or prescribed medications"
+    ],
+    "whenToSeekCare": "If you have difficulty swallowing, persistent vomiting, or unintentional weight loss"
+  },
+  {
+    "disease": "Anxiety Disorder",
+    "symptoms": ["excessive worry", "restlessness", "fatigue", "difficulty concentrating", "irritability", "muscle tension", "sleep problems", "rapid heartbeat", "sweating"],
+    "urgency": "Routine",
+    "description": "A mental health disorder characterized by persistent excessive worry about daily situations.",
+    "recommendedActions": [
+      "Practice deep breathing and relaxation techniques",
+      "Exercise regularly to reduce stress",
+      "Limit caffeine and alcohol intake",
+      "Consider therapy or counseling"
+    ],
+    "whenToSeekCare": "If anxiety interferes with daily life, relationships, or you have thoughts of self-harm"
+  },
+  {
+    "disease": "Depression",
+    "symptoms": ["persistent sadness", "loss of interest", "fatigue", "sleep changes", "appetite changes", "difficulty concentrating", "feelings of worthlessness", "hopelessness"],
+    "urgency": "Moderate",
+    "description": "A mood disorder causing persistent feelings of sadness loss and disinterest in daily activities.",
+    "recommendedActions": [
+      "Seek professional mental health support",
+      "Maintain social connections",
+      "Exercise regularly",
+      "Follow prescribed treatment plan"
+    ],
+    "whenToSeekCare": "Immediately if you have thoughts of self-harm or suicide — call emergency services"
+  },
+  {
+    "disease": "Kidney Stones",
+    "symptoms": ["severe back pain", "side pain", "pain radiating to groin", "painful urination", "pink urine", "red urine", "nausea", "vomiting", "frequent urination"],
+    "urgency": "Urgent",
+    "description": "Hard deposits made of minerals and salts that form inside the kidneys causing severe pain.",
+    "recommendedActions": [
+      "Drink plenty of water to help pass stone",
+      "Take prescribed pain medication",
+      "Strain urine to catch the stone for analysis",
+      "Follow low-oxalate diet"
+    ],
+    "whenToSeekCare": "If pain is unbearable, accompanied by fever, chills, or blood in urine"
+  },
+  {
+    "disease": "Malaria",
+    "symptoms": ["high fever", "chills", "sweating", "headache", "nausea", "vomiting", "muscle pain", "fatigue", "anemia"],
+    "urgency": "Urgent",
+    "description": "A life-threatening disease caused by parasites transmitted through infected mosquito bites.",
+    "recommendedActions": [
+      "Seek medical attention immediately",
+      "Take prescribed antimalarial medication",
+      "Rest and drink plenty of fluids",
+      "Use mosquito repellent and nets"
+    ],
+    "whenToSeekCare": "Immediately — malaria can be life-threatening especially if symptoms worsen rapidly"
+  },
+  {
+    "disease": "Typhoid Fever",
+    "symptoms": ["high fever", "headache", "abdominal pain", "constipation", "diarrhea", "fatigue", "weakness", "rash", "loss of appetite"],
+    "urgency": "Urgent",
+    "description": "A bacterial infection caused by Salmonella typhi spread through contaminated food and water.",
+    "recommendedActions": [
+      "Take prescribed antibiotics completely",
+      "Drink clean boiled water only",
+      "Eat light easily digestible foods",
+      "Rest completely"
+    ],
+    "whenToSeekCare": "Immediately if fever is very high, severe abdominal pain, or confusion occurs"
+  },
+  {
+    "disease": "Dengue Fever",
+    "symptoms": ["high fever", "severe headache", "pain behind eyes", "joint pain", "muscle pain", "rash", "nausea", "vomiting", "fatigue"],
+    "urgency": "Urgent",
+    "description": "A mosquito-borne viral disease causing flu-like illness and occasionally severe potentially lethal complications.",
+    "recommendedActions": [
+      "Rest completely",
+      "Drink plenty of fluids",
+      "Take paracetamol for fever",
+      "Avoid aspirin and ibuprofen"
+    ],
+    "whenToSeekCare": "Immediately if bleeding from nose or gums, blood in vomit, severe abdominal pain, or rapid breathing"
+  },
+  {
+    "disease": "Sinusitis",
+    "symptoms": ["facial pain", "facial pressure", "nasal congestion", "runny nose", "loss of smell", "headache", "cough", "fatigue", "fever"],
+    "urgency": "Routine",
+    "description": "Inflammation of the sinuses often caused by infection allergies or autoimmune issues.",
+    "recommendedActions": [
+      "Use saline nasal rinse",
+      "Apply warm compress to face",
+      "Take decongestants if needed",
+      "Stay hydrated"
+    ],
+    "whenToSeekCare": "If symptoms last more than 10 days, fever is high, or vision changes occur"
+  },
+  {
+    "disease": "Arthritis",
+    "symptoms": ["joint pain", "joint swelling", "joint stiffness", "reduced range of motion", "redness", "warmth around joints", "fatigue", "morning stiffness"],
+    "urgency": "Routine",
+    "description": "Inflammation of one or more joints causing pain and stiffness that worsens with age.",
+    "recommendedActions": [
+      "Take prescribed anti-inflammatory medication",
+      "Do gentle exercises and stretching",
+      "Apply hot or cold packs to joints",
+      "Maintain healthy weight"
+    ],
+    "whenToSeekCare": "If joints become very swollen, you have fever with joint pain, or cannot perform daily activities"
+  },
+  {
+    "disease": "Heart Attack",
+    "symptoms": ["chest pain", "chest pressure", "chest tightness", "shortness of breath", "pain radiating to arm", "pain radiating to jaw", "nausea", "sweating", "dizziness"],
+    "urgency": "Emergency",
+    "description": "A medical emergency where blood flow to the heart is blocked causing heart muscle damage.",
+    "recommendedActions": [
+      "Call emergency services IMMEDIATELY",
+      "Chew aspirin if not allergic",
+      "Loosen tight clothing",
+      "Do not drive yourself to hospital"
+    ],
+    "whenToSeekCare": "CALL EMERGENCY SERVICES IMMEDIATELY — this is a life-threatening emergency"
+  },
+  {
+    "disease": "Stroke",
+    "symptoms": ["sudden numbness", "face drooping", "arm weakness", "speech difficulty", "confusion", "severe headache", "vision problems", "loss of balance", "dizziness"],
+    "urgency": "Emergency",
+    "description": "A medical emergency where blood supply to part of the brain is cut off causing brain damage.",
+    "recommendedActions": [
+      "Call emergency services IMMEDIATELY",
+      "Note the time symptoms started",
+      "Do not give food or water",
+      "Keep person calm and lying down"
+    ],
+    "whenToSeekCare": "CALL EMERGENCY SERVICES IMMEDIATELY — every second counts with stroke"
+  },
+  {
+    "disease": "Chickenpox",
+    "symptoms": ["itchy rash", "blisters", "fever", "fatigue", "headache", "loss of appetite", "red spots"],
+    "urgency": "Moderate",
+    "description": "A highly contagious viral infection causing an itchy blister-like rash on the skin.",
+    "recommendedActions": [
+      "Stay home and rest",
+      "Use calamine lotion for itching",
+      "Take antihistamines to reduce itching",
+      "Keep fingernails short to prevent scratching"
+    ],
+    "whenToSeekCare": "If rash spreads to eyes, difficulty breathing, confusion, or rash becomes very red and warm"
+  },
+  {
+    "disease": "Tuberculosis (TB)",
+    "symptoms": ["persistent cough", "coughing blood", "chest pain", "fatigue", "night sweats", "fever", "weight loss", "loss of appetite"],
+    "urgency": "Urgent",
+    "description": "A serious infectious disease that mainly affects the lungs caused by Mycobacterium tuberculosis.",
+    "recommendedActions": [
+      "See a doctor immediately for testing",
+      "Take full course of prescribed antibiotics",
+      "Wear mask to prevent spreading",
+      "Isolate until non-infectious"
+    ],
+    "whenToSeekCare": "Immediately — TB requires proper diagnosis and long-term treatment"
+  }
+]
