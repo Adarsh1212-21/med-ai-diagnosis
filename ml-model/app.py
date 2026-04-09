@@ -7,6 +7,10 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def health():
+    return 'OK', 200
+
 print("Loading ML model...")
 with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
