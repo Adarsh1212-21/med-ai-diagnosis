@@ -7,10 +7,11 @@ dotenv.config();
 
 const app = express();
 
-// Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
-  credentials: true
+  origin: [
+    'http://localhost:3000',
+    'https://med-ai-diagnosis-pi.vercel.app'
+  ]
 }));
 app.use(express.json());
 
