@@ -3,9 +3,10 @@ const { protect } = require('../middleware/auth');
 const User = require('../models/User');
 const { analyzeSymptoms } = require('../utils/symptomMatcher');
 
+
 const router = express.Router();
 
-const ML_API = 'http://localhost:5001';
+const ML_API = process.env.ML_MODEL_URL;
 
 
 const callGemini = async (symptoms, age, gender, duration) => {
